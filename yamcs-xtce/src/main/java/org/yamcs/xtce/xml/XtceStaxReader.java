@@ -681,7 +681,7 @@ public class XtceStaxReader extends AbstractStaxReader {
                                 "AbsoluteTimeParameterType without a reference time  not supported "
                                         + "(except if it used a BinaryDataEncoding with an algorithm "
                                         + "which could produce directly an absolute time)",
-                                xmlEvent.getLocation());
+                                xmlEvent.getLocation());                            
                     }
                 }
                 return incompleteType;
